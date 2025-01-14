@@ -122,6 +122,7 @@ span {
 }
 
 h1,
+h2,
 h3 {
   text-align: center;
 }
@@ -149,9 +150,16 @@ th {
 }
 
 .image-ceiling {
-  width: 300px;
+  width: 350px;
   height: 250px;
+
+  /* float: left; */
 }
+
+.wrapper {
+  display: flex;
+}
+
 /* .td {
   width: 10px;
   height: 10px;
